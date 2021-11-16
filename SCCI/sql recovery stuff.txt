@@ -1,0 +1,7 @@
+EXEC master.dbo.xp_readerrorlog 0, 1, N'Recovery of database', N'Rockymountainag', NULL, NULL, N'desc'
+
+sp_who2
+
+KILL 34
+
+RESTORE DATABASE RockyMountainAg WITH RECOVERY
